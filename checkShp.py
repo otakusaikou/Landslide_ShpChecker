@@ -7,9 +7,9 @@ import numpy as np
 
 
 def initDB(host, port, user, dbName):
-    """Initialize landslide database"""
+    """Initialize the PostGIS database"""
     # Replace and create a new database with PostGIS extension
-    print "Initialize landslide database..."
+    print "Initialize the PostGIS database..."
     cmdStr = "psql -h %s -p %s -U %s -c \"DROP DATABASE IF EXISTS %s;\"" \
         % (host, port, user, dbName)
     os.popen(cmdStr)
