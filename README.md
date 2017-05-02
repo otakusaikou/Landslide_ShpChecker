@@ -1,16 +1,16 @@
 Landslide_ShpChecker
 ==========
 
-##Description
+## Description
 A validity checker for the shapefile. Written with Python and SQL code.
 
-##Requirements
+## Requirements
 
-###PostgreSQL
+### PostgreSQL
 [PostgreSQL 9.4.4](http://www.postgresql.org)  
 [PostGIS 2.1.8 for PostgreSQL 9.4](http://postgis.net)
 
-###Python
+### Python
 [Python v2.7.X](https://www.python.org) with the following modules to be installed.
 
 -[Numpy](http://www.numpy.org)  
